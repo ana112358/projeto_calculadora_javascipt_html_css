@@ -1,0 +1,36 @@
+.centralizar{
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#fundo_calculadora{
+    width: 520px;
+    height: 700px;
+    background: black;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 5px #000;
+}
+#conteudo_calculadora{
+    width:500px ;
+}
+#conteiner_resultado{
+    width: 490px;
+    height: 40px;
+    background: #fff;
+}
+
+#botoes{
+    width: 496px;
+}
+
+button{
+    width: 120px;
+    height: 100px;
+    background-color: grey;
+    font-size: 30px;
+}
+button:hover{
+    background-color: rgb(57, 57, 57);
+    color: #fff;
+}
