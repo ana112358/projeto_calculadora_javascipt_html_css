@@ -5,30 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Calculadora Online</title>
-    <script>
-        function acao(tipo, valor){
-            switch (tipo){
-                case 'valor':
-                    document.getElementById('conteiner_resultado').value += valor
 
-                case 'acao':
-
-                if(valor=='clear'){
-                    document.getElementById('conteiner_resultado').value =""
-
-                }else if(valor === '-' || valor === '*' || valor === '+' || valor === '/' ){
-                    document.getElementById('conteiner_resultado').value += valor
-
-                }else if(valor === '='){
-                    var resultado = eval(document.getElementById('conteiner_resultado').value)
-                    document.getElementById('conteiner_resultado').value = resultado
-                }
-
-            }
-
-
-        }
-    </script>
 
 </head>
 <body>
@@ -68,6 +45,6 @@
 
         </div><!-- Fim do conteúdo da Calculadora-->
     </div><!--Fim do fundo da calculadora-->
-    
+    <script src="javascript/script.js"></script>
 </body>
 </html>
